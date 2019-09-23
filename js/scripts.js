@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#blanks form").submit(function() {
+  $("#form-group").submit(function() {
     $(".person1").append("blah blah");
     $(".person2").append("blah blah");
     $(".animal").append("blah blah");

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
   <html lang="en" dir="ltr">
-    <title>Programming</title>
+    <title>Programming Guide</title>
       <head>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -13,14 +13,13 @@
       <div class="container">
         <h1>Programming Guide for the Undecided</h1>
         <h3>This series of questioning will help determine the programming language you should learn first.</h3>
-        <div class="radio">
+        <form>
+        <div class="form-group">
           <label for="character">
-          <p>1. Which of the following fictional characters do you best associate yourself with?</p>
+          1. Which of the following fictional characters do you best associate yourself with?</p>
             <input type="radio" name="operator" value="cinderella" checked>
             Cinderella
-        </label>
-        </div>
-        <div class="radio">
+          </label>
           <label>
             <input type="radio" name="operator" value="smokey">
             Smokey the Bear
@@ -31,19 +30,22 @@
           <input type="text" id="name" name="user-name">
         </div>
         <div class="checkbox">
-          <p>3. Check all that apply</p>
+          3. Check all that apply with reagrd to you're feelings about programming:<br />
           <label>
-            <input type="checkbox"> Check me out<Br />
+            <input type="checkbox"> Check me out<br />
             <input type="checkbox"> Oh Yeah!<br />
             <input type="checkbox"> Look at me<br />
             <input type="checkbox"> Bored<br  />
             <input type="checkbox"> Hey there!<br />
           </label>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </div>
+        </form>
       <div id="results">
-        Your results are as follows.
+        <p>
+
+          Based on our answers, you should start studying <span class=""></span>.</p>
       </div>
     </body>
   </html>
