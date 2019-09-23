@@ -3,3 +3,7 @@ h2 {
   color: #1565C0;
   padding: 25px;
 }
+
+#results {
+  display: none;
+}
